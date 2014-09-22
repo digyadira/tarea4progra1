@@ -1,18 +1,20 @@
 
 public class Ejercicios {
-	//con el return devolvemos el valor del arreglo 
+	// bueno en esta tarea de arreglo lo que hacemos es q nos devuelva la posicion,la suma, promedio
+	//utilizando el return que tube unos errores en mi tarea anterior y por eso la tube que corregir pero ya me fije q errores tube y ya esta corregida
+	//gracias ala ayuda de mi compañero kevin
 	//Devuelve el valor almacenado en el indice posicion
 	static int obtenerValor(int arreglo[], int posicion)
 	{
 		return arreglo[posicion];
 	}
-	//con el return obtenemos la posicion dentro del arreglo
+
 	//Devuelve el valor almacenado en el indice posicion
 	static String obtenerValor(String arreglo[], int posicion)
 	{
 		return arreglo[posicion];
 	}
-	//lo hacemos con el ciclofor para obtener la suma del arreglo
+
 	//Devuelve la suma de todos los elementos del arreglo
 	static int obtenerSuma(int arreglo[])
 	{
@@ -23,7 +25,7 @@ public class Ejercicios {
 				}
 		return suma;
 	}
-	//declaramos la variable promedio luego realizamos un ciclo para obtener el promedio
+	
 	//Devuelve el promedio de todos los elementos del arreglo
 	static int obtenerPromedio(int arreglo[])
 	{
@@ -48,7 +50,7 @@ public class Ejercicios {
 			}
 				return false;
 			}
-	//primero colocacmos un ciclo con la condicion if ponemos si el valor del arreglo esta	
+
 	//Devuelve true si valor esta 
 	static boolean existe(String arreglo[], String valor)
 	{
